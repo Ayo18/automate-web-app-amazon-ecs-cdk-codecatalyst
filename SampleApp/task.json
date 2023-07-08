@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::<account_ID>:role/AppRole",
+    "executionRoleArn": "arn:aws:iam::587128279603:role/AppRole",
     "containerDefinitions": [
          {
              "name": "MyContainer",
