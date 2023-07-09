@@ -33,7 +33,7 @@ Actions:
         - Role: CodeCatalystWorkflowDevelopmentRole-Dev0ps1
         # Add account id within quotes. Eg: "123456789012"
           Name: "587128279603"
-      Name: No-prod
+      Name: No-Prod
     Configuration:
       Steps:
         - Run: export account=`aws sts get-caller-identity --output text | awk '{ print $1 }'`
@@ -76,7 +76,7 @@ Actions:
         - Role: CodeCatalystWorkflowDevelopmentRole-Dev0ps1
         # Add account id within quotes. Eg: "12345678"
           Name: "587128279603"
-      Name: Non-Prod
+      Name: No-Prod
     DependsOn:
       - RenderAmazonECStaskdefinition
     Inputs:
